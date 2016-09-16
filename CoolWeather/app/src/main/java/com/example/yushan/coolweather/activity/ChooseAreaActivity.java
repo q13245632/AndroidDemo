@@ -215,7 +215,7 @@ public class ChooseAreaActivity extends Activity {
                     @Override
                     public void run() {
                         closeProgressDialog();
-                        Toast.makeText(ChooseAreaActivity.this,"加载失败",Toast.LENGTH_SHORT);
+                        Toast.makeText(ChooseAreaActivity.this,"加载失败",Toast.LENGTH_SHORT).show();
                     }
                 });
             }
